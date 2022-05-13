@@ -1,0 +1,41 @@
+.body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+}
+ .img-slider{
+position: relative;
+width: 800px;
+height: 500px;
+margin: 10px;
+background:#fff ;
+
+
+}
+ .slide{
+
+z-index: 1;
+position: absolute;
+width: 100%;
+
+
+}
+ img{
+width: 100%;
+z-index: 1;
+border-radius: 5px;
+
+ }
+ .info{
+position: absolute;
+top: 0;
+padding: 15px 30px;
+ }
+ .info p{
+font-size: 40px;
+color:#fff ;
+font-weight: 700;
+
+ }
